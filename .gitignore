@@ -1,0 +1,43 @@
+# Local Data & Downloaded Archives
+data/
+raw_data/
+*.csv
+*.dta
+*.xlsx
+*.xls
+*.parquet
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+config.json
+!config.example.json
+credentials.json
+*.pem
+*.key
+
+# Python Bytecode & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# IDE & OS Metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Packaging Artifacts
+*-github-ready.zip
